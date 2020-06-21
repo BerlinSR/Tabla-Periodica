@@ -1,7 +1,7 @@
 <?php
      
      $elementos = array(array(
-        '1 <br> H <br> Hidrógeno',
+        '1 <br> H <br> Hidrogeno',
         '2 <br> He <br> Helio',
         '3 <br> Li <br> Litio',
         '4 <br> Be <br> Berilio',
@@ -140,56 +140,7 @@
      </center>
 <table class="espacios" border="1">
 
-<style>
 
-.colorLantanido{
-    background-color: peru;
-    border-color: peru; 
-    border: none;
-
-        }
-    .colorActinidos{
-    background-color: lightsalmon;
-    border-color: lightsalmon;
-    border: none;
-
-        }
-     .espacios{
-
-    border: none;
-
-        }
-    .colorOtrosNoMetales{
-            background-color: green;
-            border: none;
-        }
-    .colorGasesNobles {
-            background-color: lightblue;
-        }
-    .colorHalogenos {
-            background-color: lightskyblue;
-    }
-    .colorMetaloides{
-            background-color: lightgreen;
-    }
-    .colorOtrosMetales{
-            background-color: #dfdf35;
-    }
-    .colorMetales {
-            background-color: orange;
-    }
-    .colorAlcalinoterreos{
-            background-color: plum;
-    }
-    .colorAlcalino{
-            background-color: rebeccapurple;
-    }
-    h1{
-            text-align: center;
-            font-size: xx-large;
-    }
-
-    </style>
     <?php 
     for($x=0;$x<count($elementos);$x++){?>
 
